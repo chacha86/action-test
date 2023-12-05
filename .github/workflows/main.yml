@@ -4,7 +4,7 @@ on:
       - test
 jobs:
   my_job:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
       - name: test job
         run: echo "hihi"
