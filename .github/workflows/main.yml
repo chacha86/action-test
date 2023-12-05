@@ -2,3 +2,11 @@ on:
   push:
     branches:
     - test
+jobs:
+  my_job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: test job
+      - run: ehco "hihi"
+      
+  
